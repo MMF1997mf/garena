@@ -59,16 +59,16 @@
   @media screen and (orientation: portrait) {
     /*竖屏 css*/
     .back{
-      display: none;
-    }
-  }
-  @media screen and (orientation: landscape) {
-    .back{
       height:15rem;
       width:100%;
       background: black;
       opacity: 0.5;
       position:absolute;
+    }
+  }
+  @media screen and (orientation: landscape) {
+    .back{
+      display: none;
     }
   }
 
